@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopdrills", "oopdrills\oopd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopdrills_tests", "oopdrills_tests\oopdrills_tests.csproj", "{702894F0-3314-423B-8D6A-C377C5FF73F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpdrills", "csharpdrills\csharpdrills.csproj", "{8D2D5854-8EBF-4BED-A54F-66EB3FFE81D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpdrills_tests", "csharpdrills_tests\csharpdrills_tests.csproj", "{A58FCE91-796A-44AC-A036-2F8C2B0F7557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{702894F0-3314-423B-8D6A-C377C5FF73F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702894F0-3314-423B-8D6A-C377C5FF73F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{702894F0-3314-423B-8D6A-C377C5FF73F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2D5854-8EBF-4BED-A54F-66EB3FFE81D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2D5854-8EBF-4BED-A54F-66EB3FFE81D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2D5854-8EBF-4BED-A54F-66EB3FFE81D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2D5854-8EBF-4BED-A54F-66EB3FFE81D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58FCE91-796A-44AC-A036-2F8C2B0F7557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58FCE91-796A-44AC-A036-2F8C2B0F7557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58FCE91-796A-44AC-A036-2F8C2B0F7557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58FCE91-796A-44AC-A036-2F8C2B0F7557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

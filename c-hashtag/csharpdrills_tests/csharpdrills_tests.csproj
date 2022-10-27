@@ -20,8 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\oopdrills\oopdrills.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -1,8 +1,8 @@
-using System.Collections.Generic;
+using oopdrills.Exceptions;
 
-namespace oopdrills_tests
+namespace oopdrills
 {
-    internal class Quark
+    public class Quark
     {
         private readonly List<string> AcceptedColors = new List<string> { "red", "blue", "green" };
         private readonly List<string> AcceptedFlavors = new List<string> { "up", "down", "strange", "charm", "top", "bottom" };
