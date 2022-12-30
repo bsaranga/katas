@@ -47,4 +47,27 @@ public class DeMorgansLawTests
             Assert.Equal(res1, res2);
         });
     }
+
+    [Fact]
+    public void Simplification()
+    {
+        // Given
+        bool isRaining = false;
+        float temperature = 10;
+        bool roadIsIcy = true;
+        float gasLevel = 10;
+        float reserveLevel = 11;
+        float alcoholThreshold = 56;
+    
+        // When
+        if (!isRaining && !(temperature < 0) && !roadIsIcy && (gasLevel > reserveLevel) && (alcoholThreshold > 50)) {
+            Console.WriteLine("Safe to Drive");
+        } else Console.WriteLine("Not Safe");
+
+        if ((isRaining || (temperature < 0) || roadIsIcy) || !(gasLevel > reserveLevel) || !(alcoholThreshold > 50)) {
+            Console.WriteLine("Safe to Drive");
+        } else Console.WriteLine("Not Safe");
+    
+        // Then
+    }
 }
